@@ -14,7 +14,7 @@ function renderComponent(overrides: Partial<ButtonProps> = {}) {
   render(
     <Button disabled={disabled} onClick={onClick} className={className}>
       {children}
-    </Button>,
+    </Button>
   )
 }
 
